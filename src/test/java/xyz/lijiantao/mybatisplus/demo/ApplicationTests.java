@@ -1,4 +1,4 @@
-package xyz.lijiantao.mybatisplus.demo.mybatisplusdemo;
+package xyz.lijiantao.mybatisplus.demo;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -13,7 +13,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MybatisPlusDemoApplicationTests {
+public class ApplicationTests {
 
 	@Autowired
     private UserMapper userMapper;
